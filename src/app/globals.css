@@ -24,6 +24,12 @@ a {
 }
 .wrapper {
     max-width: 1536px;
-    margin: 0 auto;
-    background-color: red;
+    margin: 0 5%;
+    padding: 0 5%;
+}
+
+@media (max-width:600px) {
+    .wrapper {
+        margin: 0;
+    }
 }
