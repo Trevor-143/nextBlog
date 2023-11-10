@@ -1,7 +1,7 @@
-import styles from './navBar.module.css'
+import styles from './menu.module.css'
 
-export default function NavBar () {
+export default function Menu () {
     return (
-        <div className={styles.container} >NavBar</div>
+        <div className={styles.container} >Menu</div>
     )
 }
